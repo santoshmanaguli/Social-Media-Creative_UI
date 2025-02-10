@@ -21,5 +21,6 @@ export default {
 .breadcrumb {
   padding: 20px 20px 0px 20px;
   margin-bottom: 0px;
+  font-weight: 500;
 }
 </style>

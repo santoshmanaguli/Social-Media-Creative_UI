@@ -7,23 +7,23 @@
       </div>
       <hr />
       <label class="color-grey label-font">Project:</label>
-      <p>Alzheimer P2P 2023</p>
+      <p class="font-weight500">Alzheimer P2P 2023</p>
       <label class="color-grey label-font">Brand:</label>
-      <p>Vitiligo 2023</p>
+      <p class="font-weight500">Vitiligo 2023</p>
       <label class="color-grey label-font">New/Re-nominated</label><br />
       <span class="badge new-badge" style="">New</span>
       <hr />
       <ul class="nomination-ul-list">
         <li>
           <img src="../../assets/check.svg" alt="checks" />
-          <span class="ms-4 color-green">Screening</span>
+          <span class="ms-4 color-green font-weight500">Screening</span>
           <p class="ms-5 label-font color-grey">
             Speakers Will be in this status once a nomination request has been submitted
           </p>
         </li>
         <li>
           <img src="../../assets/check.svg" alt="checks" />
-          <span class="ms-4 color-green">PR Review</span>
+          <span class="ms-4 color-green font-weight500">PR Review</span>
           <p class="ms-5 label-font color-grey">
             Mostly used if PR is still in discussion or if the DBDs were permitted to submit
             nominations.
@@ -31,7 +31,7 @@
         </li>
         <li>
           <div class="circle text-center d-inline-block">3</div>
-          <span class="ms-4">Pending Medical Approval</span>
+          <span class="ms-4 font-weight500">Pending Medical Approval</span>
           <p class="ms-5 label-font color-grey">1st Approver</p>
           <div class="ms-5">
             <button class="btn deny-btn">Deny</button>
@@ -48,6 +48,7 @@
 }
 .nomination-header {
   font-size: 20px;
+  font-weight: 500;
 }
 .label-font {
   font-size: 12px;

@@ -54,6 +54,7 @@ export default {
                 :style="nav.title === 'Speaker' ? 'color: #0047CF' : ''"
                 >{{ nav.title }}</a
               >
+              <div v-if="nav.title === 'Speaker'" class="border-bottom-speaker"></div>
             </li>
           </div>
         </ul>
@@ -91,6 +92,7 @@ export default {
 .navbar {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background-color: #ffffff !important;
+  font-weight: 500;
 }
 .logo-header {
   color: #424242;
@@ -113,5 +115,10 @@ export default {
   width: 2px;
   background-color: #cacfd3;
   margin: 0 10px;
+}
+.border-bottom-speaker {
+  border-bottom: 2px solid #0047cf;
+  top: 11px;
+  position: relative;
 }
 </style>
